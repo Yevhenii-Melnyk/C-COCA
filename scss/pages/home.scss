@@ -1,0 +1,41 @@
+/*Header*/
+.header{
+    padding: 26px 0px 22px;
+
+&__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+&__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #1D1E25;
+    margin-right: 32px;
+    position: relative;
+}
+
+&__link:nth-child(4){
+    margin-right: 68px;
+}
+
+&__link::after{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #020000;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+&__link:hover::after{
+    opacity: 1;
+}
+}
