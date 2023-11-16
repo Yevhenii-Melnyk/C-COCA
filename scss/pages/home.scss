@@ -39,3 +39,41 @@
     opacity: 1;
 }
 }
+
+/*Main-screen*/
+.main-screen{
+    padding: 87px 0 135px;
+
+&__box{
+    display: flex;
+    position: relative;
+}
+
+&__box::before{
+    content: "";
+    position: absolute;
+    background: #FA7515;
+    filter: blur(110px);
+    right: 539px;
+    bottom: 102px;
+    opacity: 0.13;
+    width: 551px;
+    height: 551px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+&__box::after{
+    content: "";
+    position: absolute;
+    background: #E2F8F0;
+    filter: blur(90px);
+    right: -166px;
+    top: 102px;
+    opacity: 0.70;
+    width: 525px;
+    height: 525px;
+    border-radius: 50%;
+    z-index: -1;
+}
+}
