@@ -11,7 +11,6 @@
 &__link{
     text-decoration: none;
     font-size: 16px;
-    font-family: "Inter", sans-serif;
     font-weight: 500;
     color: #1D1E25;
     margin-right: 32px;
@@ -75,5 +74,74 @@
     height: 525px;
     border-radius: 50%;
     z-index: -1;
+}
+
+&__box-text{
+    margin-right: 97px;
+}
+
+&__title{
+    font-size: 80px;
+    font-weight: 700;
+}
+
+&__box-hr{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-top: 144px;
+    
+}
+
+&__hr{
+    width: 76px;
+    height: 0;
+    margin: 20px 27px 0 0;
+}
+
+&__text{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+&__form{
+    padding-top: 69px;
+}
+
+&__inp-mail{
+    border: none;
+    border-bottom: 1px solid #CED1D8;
+    width: 280px;
+    height: 32px;
+    margin-right: 16px;
+}
+
+&__inp-btn{
+    width: 175px;
+    height: 32px;
+    border-radius: 100px;
+    background: var(--colorPrimary);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: var(--colorTertiary);
+    font-weight: 700;
+}
+
+&__box-img{
+    position: relative;
+}
+
+&__sales{
+   width: 420px;
+   margin-top: 50px;
+}
+
+&__customer-growth{
+    position: absolute;
+    top: 0;
+    right: -132px;
+}
+
+&__statistic{
+    margin-top: 130px;
 }
 }
