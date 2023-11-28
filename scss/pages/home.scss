@@ -113,6 +113,7 @@
     width: 280px;
     height: 32px;
     margin-right: 16px;
+    font-weight: 400;
 }
 
 &__inp-btn{
@@ -194,8 +195,45 @@
     gap: 0 58px;
 }
 
+&__img{
+    position: relative;
+}
+
+&__part-img{
+    position: absolute;
+    z-index: 1;
+    left: 237px;
+    top: 292px;
+}
+
 &__title{
     font-size: 56px;
     font-weight: 600;
+}
+
+&__text{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorSecondary);
+    padding-top: 24px;
+}
+
+&__list-items{
+    padding-top: 40px;
+}
+
+&__list-items:first-child{
+    padding-top: 0;
+}
+
+ul li {
+    background: url("/img/icon-done.png") no-repeat left center;
+  }
+
+&__list-item{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 32px;
+    margin-top: 32px;
 }
 }
