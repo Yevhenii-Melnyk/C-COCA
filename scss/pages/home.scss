@@ -145,3 +145,57 @@
     margin-top: 130px;
 }
 }
+
+/*Help Our*/
+.help-our{
+    background-color:  var(--colorPrimary);
+    color: var(--colorTertiary);
+    padding: 100px 0;
+
+&__title{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+&__text{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorSecondary);
+    padding-top: 24px;
+}
+
+&__box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px 259px;
+    padding-top: 80px;
+}
+
+&__box-title{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 24px 0;
+}
+
+&__box-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--colorSecondary);
+}
+}
+
+/*Statistic*/
+.statistic{
+    padding: 160px 0 94px;
+
+&__group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 58px;
+}
+
+&__title{
+    font-size: 56px;
+    font-weight: 600;
+}
+}
