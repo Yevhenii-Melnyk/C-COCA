@@ -133,3 +133,68 @@
 //     default: console.log('z')
 //         break;
 // }
+
+
+// Задание 10
+// let i = 0;
+// while (++i < 5) alert( i );  Будет от 1 до 4
+
+// let i = 0;
+// while (i++ < 5) alert( i ); Будет от 1 до 5
+// Есть разница между этими примерами
+
+
+// Задание 11
+// for (let i = 0; i < 5; i++) alert( i ); Будет от 0 до 4
+// for (let i = 0; i < 5; ++i) alert( i ); Будет от 0 до 4
+// Нет разницы между этими примерами
+
+// Задание 12
+// for (let i = 2; i <= 10; i++) 
+// if (i % 2 == 0) {
+//     alert (i);    
+// }
+
+// Задание 13
+// let i = 0;
+// while (i < 3) {
+//   alert( `number ${i}!`  );
+//   i++;
+// }
+
+// Задание 14
+// let num;
+
+// do {
+//   num = prompt("Введите число больше 100?", 0);
+// } while (num <= 100 && num);
+
+
+// Задание 15
+// for(let i = 20; i >= -10; i-- ){
+//     console.log(i)
+// }
+
+// let k = 15
+// while (k <= 30) {
+//     console.log(k++);
+// }
+
+// let u = 32
+// do{ console.log (u++) } 
+// while( u <= 40);
+
+
+// Задание 16
+// for ( let i = 1; i < 10; i++)
+// {
+//     console.log(i**2)
+// }
+
+
+// Задание 17
+// let i = 1
+// while(i < 10){
+//     console.log(`${i**2}`);
+//     i++;
+// }
