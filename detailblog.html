@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--Header-->
+    <header class="header">
+        <div class="container">
+            <div class="header__group">
+                <a href="home.html">
+                    <img src="./img/logo.svg" alt="c coca">
+                </a>
+                <nav class="header__nav">
+                    <a href="home.html" class="header__link">Home</a>
+                    <a href="about.html" class="header__link">About</a>
+                    <a href="blog.html" class="header__link">Blog</a>
+                    <a href="pricing.html" class="header__link">Pricing</a>
+                    <a href="contact.html" class="header__link">Contact Us →</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Detail Blog-->
+    <section class="detail-blog">
+        <div class="container">
+            <h2>How we perform long-running tasks using AWS services</h2>
+            <div>
+                <div>
+                    <div>
+                        <img src="./img/renee-wells.png" alt="Renee Wells">
+                    </div>
+                    <div>
+                        <h5>Renee Wells</h5>
+                        <p>Product Designer, Quotient</p>
+                    </div>
+                </div>
+                <div>
+                    <p>10 min read  November 10, 2023</p>
+                </div>
+            </div>
+            <img src="./img/work-place.jpg" alt="Work place">
+            <p>
+                Depending on the input, this can result in using a lot of processing power and time. The whole process would
+                take approximately 5 seconds to return a result to the client. Keep in mind we're talking about 1 item,
+                a contact from a contact book. After a while, a new requirement is added. Solution must support companies
+                that manage their contacts organized in files. We agreed to develop a web application that would support 
+                upload of dataset files, like .csv. The new web application should support third party integrations.
+                Some of them are the ESP/CRM services, like Mailchimp. User does not need to see the result immediately. 
+                System can later notify the user about the result, when the process finishes. This information is the key 
+                that we need to leverage on when developing our solution. So here's how we did it.
+            </p>
+            <h3>Initial approach</h3>
+            <p>Our initial approach went like this: The web application would read a .csv file line-by-line and submit 
+               an array of entries to the backend REST API. Processing is in real time, immediately after the user makes 
+               a request for the process to start, he expects a result. Another approach is to apply vertical scaling to 
+               AWS architecture. Meaning we used larger, more expensive instances that have more RAM and processing power. 
+               This system worked well for smaller datasets, maybe up to 5k entries, but for larger datasets multiple 
+               problems arose. This solution is prone to failure due to long request time. Also, because of some 3rd party 
+               services that aren't optimized for large scale loads or they don't have batch endpoints. 3rd party services 
+               also tend to protect their architecture from making a huge bill on their end. The whole process was done in 
+               real-time. The request can take a lot of time hanging in there while the backend would do all the work and 
+               return the result to the client. The request was limited to 300 seconds (at time of writing the article) 
+               before AWS would cancel it… Also I need to mention that the user has to wait a few minutes to see the results.
+               They can't use the app during the process, which makes for a bad user experience.
+            </p>
+                <div>
+                    <div>
+                        <img src="./img/blog-avatar.jpg" alt="blog-avatar">
+                    </div>
+                    <div>
+                        <img src="./img/socialicons4.png" alt="Facebook">
+                        <img src="./img/socialicons1.png" alt="Twitter">
+                        <img src="./img/socialicons2.png" alt="Linkedin">
+                        <img src="./img/socialicons3.png" alt="Instagram">
+                        <p>Share this article</p>
+                        <p>Written by</p>
+                        <h4>Renee Wells</h4>
+                        <p>Product Designer, Quotient</p>
+                        <p>Skilled in React Native, iOS and backend, Toni has a demonstrated knowledge of the 
+                           information technology and services industry, with plenty of hands-on experience to back it up.
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <div>
+                    <h2>Think beyond the wave</h2>
+                    <p>Ask about Sans products, pricing, implementation, or anything else. Our highly trained reps are standing by, ready to help</p>
+                    <!--Сделать псевдоелемнтом риску перед <p>-->
+                </div>
+                <div>
+                    <button>Try for free</button>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="./img/blacklogo.svg" alt="c coca">
+                    <p>We built an elegant solution. Our team created a fully integrated sales and marketing solution for SMBs</p>
+                </div>
+                <div>
+                    <h4></h4>
+                    <a href="#">About</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Blog</a>
+                </div>
+                <div>
+                    <h4></h4>
+                    <a href="#">Sales Software</a>
+                    <a href="#">Marketplace</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <div>
+                    <h4></h4>
+                    <a href="#">CRM Comparision</a>
+                    <a href="#">Partner Program</a>
+                    <a href="#">What is CRM</a>
+                    <a href="#">Resource</a>
+                </div>
+                <div>
+                    <h4></h4>
+                    <a href="#">Community</a>
+                    <a href="#">Knowledge Base</a>
+                    <a href="#">Academy</a>
+                    <a href="#">Support</a>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <div>
+                    <img src="./img/blacksocialicon1.png" alt="facebook">
+                    <img src="./img/blacksocialicon2.png" alt="twitter">
+                    <img src="./img/blacksocialicon3.png" alt="instagram">
+                    <img src="./img/blacksocialicon4.png" alt="linkedln">
+                </div>
+                <div>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Support</a>
+                </div>
+                <p>© Copyright 2023 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

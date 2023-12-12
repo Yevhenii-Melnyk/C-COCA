@@ -78,6 +78,13 @@
 
 
 // Задание 5
+// let result;
+// if (a + b < 4) {
+//     result = 'Мало';
+//   } else {
+//     result = 'Много';
+//   }
+
 // result = (a + b < 4) ? 'Мало' :  'Много';
 
 
@@ -198,3 +205,74 @@
 //     console.log(`${i**2}`);
 //     i++;
 // }
+
+
+// Задание 18
+// function checkAge(age) {
+//     if (age > 18) {
+//       return true;
+//     } else {
+//       return confirm('Родители разрешили?');
+//     }
+//   }
+//   console.log(checkAge ())
+
+// function checkAge(age) {
+//     return (age > 18) ? true : confirm ('Родители разрешили?')
+// }
+// console.log(checkAge ())
+
+// function checkAge (age){
+//     return (age > 18) || confirm ('Родители разрешили?')
+// }
+// console.log(checkAge ())
+
+
+// Задание 19
+// let min = function(a, b) {
+//     if( a < b) {
+//         return (a);
+//     }
+//     else {return (b)}
+// }
+// console.log(min(171, 171))
+
+// function min (a, b){
+//     return (a < b) ? a : b
+// }
+// console.log(min(32, 91))
+
+
+// Задание 20
+// function max(a, b) {
+//     if (a > b) {
+//         return (a)
+//     }
+//     else {
+//         return (b)
+//     }
+// }
+// console.log(max(91, 92))
+
+// let max = function(a, b){
+//     return  (a > b) ? a : b
+// }
+// console.log(max(71, 24))
+
+// Задание 21
+//  const num = prompt('Загадайте число от 1 до 10');
+//  function checkNumber(otherNum) {
+//     const answer = prompt('Какое число загадал игрок 1?')
+//     if (otherNum === answer) {
+//         return console.log ('Вы победили!')
+//     }
+//     if (answer === null || answer === ""){
+//         return console.log('Вы проиграли!')
+//     }
+//     else{
+//         console.log('Неправильно!')
+//     }
+//     checkNumber(otherNum)
+//  }
+//  checkNumber(num)
+
