@@ -67,7 +67,7 @@
     position: absolute;
     background: #E2F8F0;
     filter: blur(90px);
-    right: -166px;
+    right: -120px;
     top: 102px;
     opacity: 0.70;
     width: 525px;
@@ -139,7 +139,7 @@
 &__customer-growth{
     position: absolute;
     top: 0;
-    right: -132px;
+    right: -120px;
 }
 
 &__statistic{
@@ -196,14 +196,15 @@
 }
 
 &__img{
+    
     position: relative;
+    background: url(../../img/image-statistic-main.jpg) no-repeat center;
 }
 
 &__part-img{
     position: absolute;
-    z-index: 1;
-    left: 237px;
-    top: 292px;
+    top: 200px;
+    left: 250px;
 }
 
 &__title{
