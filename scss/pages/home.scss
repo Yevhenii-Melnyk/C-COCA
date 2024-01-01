@@ -292,3 +292,35 @@ ul li {
     line-height: 32px
 }
 }
+
+/*Logo sicial*/
+.logo-social{
+    padding: 86px 0;
+
+&__group{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    margin-left: 58.5px;
+}
+
+&__numb{
+    font-size: 56px;
+    font-weight: 600;
+}
+
+&__text{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--colorSecondary);
+    padding-top: 16px;
+}
+
+&__box-logo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
+    justify-self: center;
+    align-self: center;
+}
+}
