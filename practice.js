@@ -276,3 +276,85 @@
 //  }
 //  checkNumber(num)
 
+// Задание 22
+// function minmax(min, max) {
+//     return Math.floor(Math.random() * (max - min)) + min
+// }
+// console.log(minmax(1, 11))
+
+// Задание 23
+// let now = new Date(2012, 1, 20, 3, 12)
+// alert(now)
+
+// Задание 24
+// function getWeekDate(date) {
+//     let days = ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'];
+//     return days[date.getDay()]
+// }
+// let date = new Date(2024, 0, 17);
+// alert(getWeekDate(date))
+
+// Задание 25
+// let date = new Date(2024, 0, 17)
+// function getLocalDay(date) {
+//     let day = date.getDay()
+//     if (day == 0) {day = 7}
+//     return day;
+// }
+// console.log(getLocalDay(date))
+
+// Задание 26
+// let date = new Date(2015, 0, 2);
+// function getDateAgo(date, days) {
+//     let dateCopy = new Date(date);
+//     dateCopy.setDate(date.getDate() + days);
+//   return dateCopy.getDate();
+// }
+// alert( getDateAgo(date, 1) ); // 1, (1 Jan 2015)
+// alert( getDateAgo(date, 2) ); // 31, (31 Dec 2014)
+// alert( getDateAgo(date, 365) ); // 2, (2 Jan 2014)
+
+// Задание 27
+// function getLastDayOfMotsh(year, month) {
+//     let date = new Date(year, month +1, 0);
+//     return date.getDate();
+// }
+// alert( getLastDayOfMotsh(2012, 9) )
+
+// Задание 28
+// function getSecondToday() {
+//     let now = new Date ();
+//     let today = new Date (now.getFullYear(), now.getMonth(), now.getDate());
+//     let deff = now - today;
+//     return Math.round(deff/1000);
+// }
+// alert(getSecondToday() );
+
+// function getSecondsToday() {
+//     let d = new Date();
+//     return (d.getHours() * 3600 + d.getMinutes() * 60 + d.getSeconds());
+// }
+// alert(getSecondsToday() );
+
+// Задание 29
+// function getSecondToTomarow() {
+//     let now = new Date();
+//     let tomarow = new Date (now.getFullYear(), now.getMonth(), now.getDate()+1);
+//     let deff = now - tomarow;
+//     return Math.round(deff / 1000);
+// }
+// alert(getSecondToTomarow())
+
+// function getSecondToTomarow() {
+//     let now = new Date();
+//     let hour = now.getHours();
+//     let minutes = now.getMinutes();
+//     let seconds = now.getSeconds();
+//     let totalSecondsToday = (hour * 60 + minutes) * 60 + seconds;
+//     let totalSecondsInADay = 86400;
+
+//     return totalSecondsToday - totalSecondsInADay;
+// }
+// alert(getSecondToTomarow())
+
+// Задание 30
