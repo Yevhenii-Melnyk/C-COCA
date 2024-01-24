@@ -357,4 +357,52 @@
 // }
 // alert(getSecondToTomarow())
 
+<<<<<<< HEAD
 // Задание 30
+// let str = 'I am string';
+// console.log (str.length);
+// console.log (str.charAt(0));
+// console.log (str.charCodeAt(0));
+
+// let string = 'Hello, my name is Yevhenii';
+// console.log (string.toUpperCase ());
+
+// let string1 = "Please locate where locate occurs!";
+// let pos = string1.indexOf("!");
+// console.log(pos);
+// let poz = string1.includes("where");
+// console.log(poz);
+// console.log(string1.startsWith("Ple"));
+// console.log(string1.endsWith("rs!"));
+
+// let string2 = "   It's a new world!   ";
+// console.log(string2.trim());
+
+// let string3 = "Corectly";
+// console.log(string3.substring(0,5));
+// console.log(string3.slice(2,-2));
+
+// console.log('a' > 'Z');
+
+// let string4 = "Please make sure that the app id is set correct";
+// console.log(string4.search("the"));
+
+// string5 = "Please visit Microsoft!";
+// console.log(string5);
+// let n = string5.replace("Microsoft", "Google");
+// console.log(n);
+
+// // Задание 31
+// let str = "lorem ipsum is simply dummy";
+// console.log(str.replace("l", "L"))
+
+function batterstr(n, b) {
+    let n = "Sebptember is a bad month for me"
+    let b = "My birthday is a very happy day. It's october month"
+    return(Math.max(n, b))
+}
+
+console.log(batterstr)
+=======
+// Задание 30??
+>>>>>>> a771f517f2b5cb91472c45296a855b02fd707df0
