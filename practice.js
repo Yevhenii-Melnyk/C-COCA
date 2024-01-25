@@ -394,11 +394,3 @@
 // // Задание 31
 // let str = "lorem ipsum is simply dummy";
 // console.log(str.replace("l", "L"))
-
-function batterstr(n, b) {
-    let n = "Sebptember is a bad month for me"
-    let b = "My birthday is a very happy day. It's october month"
-    return(Math.max(n, b))
-}
-
-console.log(batterstr);
