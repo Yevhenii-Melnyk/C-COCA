@@ -357,7 +357,6 @@
 // }
 // alert(getSecondToTomarow())
 
-<<<<<<< HEAD
 // Задание 30
 // let str = 'I am string';
 // console.log (str.length);
@@ -402,7 +401,4 @@ function batterstr(n, b) {
     return(Math.max(n, b))
 }
 
-console.log(batterstr)
-=======
-// Задание 30??
->>>>>>> a771f517f2b5cb91472c45296a855b02fd707df0
+console.log(batterstr);
