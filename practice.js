@@ -394,3 +394,4 @@
 // // Задание 31
 // let str = "lorem ipsum is simply dummy";
 // console.log(str.replace("l", "L"))
+// trrtetertrr
